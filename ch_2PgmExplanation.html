@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pgm explanation</title>
+    <style>
+        .body{
+            align-items: center;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: burlywood;
+        }
+        .code{
+            box-sizing:border-box;
+            background-color: beige; 
+            box-shadow: 5px 5px 5px 5px black;
+            border-width: 50px;
+            border-color: ivory;
+            padding-top: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            flex-wrap: inherit;
+            margin: 20%;
+            height: 10%;
+            color: blue;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: left;
+            }
+            .time{
+                text-align: right;
+            }
+    </style>
+</head>
+<body class = "body">
+    <time timedate="28/07/2021">wednesday</time> 
+    <h1>Programming explanation</h1>
+    <h2>program created with java : FizzBuzz</h2>
+    <p>
+        Java is a preferred Programming language by some companies<br>
+         due its wide use of objects while creating a program.
+    </p>
+    <h4>Here is an example:</h4>
+    <div class = "code">
+        <pre>
+        package com.company;
+
+        import java.util.Scanner;
+        
+        public class Main {
+        
+            public static void main(String[] args) {
+        
+                Scanner scanner = new Scanner(System.in);
+        
+                System.out.println("enter an integer");
+                int number = scanner.nextInt();
+        
+                if ((number % 5 == 0 ) &&  (number % 3 == 0))
+                    System.out.println("fizzbuzz");
+                else if (number % 3 == 0)
+                    System.out.println("buzz");
+                else if (number % 5 == 0 )
+                    System.out.println("fizz");
+                else
+                    System.out.println(number);
+            }            
+        </pre>
+    </div> 
+    <p>
+        *Note, while coding <abbr title="system.out.println()">sout</abbr>  can be used to implement an output to the user<br>
+
+    </p>  
+    <h3>The output on a console: </h3>
+    <img src="img1.png" height="250" width="250"><br>
+    
+
+    <p>
+        <mark>public</mark> class Main<br>
+        This statment at the beginning of a class specifies its<br> a public class which ca be used in other classes.
+        
+    </p>
+    
+            
+</body>
+</html>
